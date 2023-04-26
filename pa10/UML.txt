@@ -1,0 +1,13 @@
++-----------------------+                   +-----------------------------+
+|      Employee         |<>-----------------|      Group                  |
++-----------------------+                   +-----------------------------+
+| -name: string         |                   | -name: string               |
+| -email: string        |                   | -id: int                    |
+| -designation: string  |                   | -focus_area: string         |
+| -salary: int          |                   | -employees: vector<Employee>|
+| -group_id: int        |                   +-----------------------------+
++-----------------------+                   | +add_employee(emp: Employee) : void |
+| +get_group_id() : int |                   | +operator- (count: int) : Group |
+| +set_group_id(new_group_id: int) : void | | +operator+ (other: Group) : Group |
++-----------------------+                   | +operator/ (num_of_groups: int) : pair<Group, Group> |
+                                            +-----------------------------+
