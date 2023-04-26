@@ -1,0 +1,34 @@
+a) To convert the hexidecimal value 3C2 to binary:
+- Divide it into groups of 4 bits, and convert them to binary: 3 = 0011, C = 1100, 2 = 0010
+- Merge the groups: 0011 + 1100 + 0010 = 11 1100 0010
+
+To convert to octal:
+- Convert the previously calculated binary representation into octal, by dividing into groups of 3 bits: 001 111 000 010 = 1702
+
+To convert to decimal:
+- Multiply each binary digit by 2 raised to the power of its position from the right, starting from 0: (1 x 2^8) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (0 x 2^2) + (0 x 2^1) + (2 x 2^0) = 962
+
+
+b) To compute the sum and product of two numbers in different formats, you could convert both numbers to the same format (decimal) and perform the computation, then convert the result back to the requested form (hexidecimal).
+
+Step 1: Convert 1A01 (hexadecimal) to decimal:
+
+1A01 in decimal = 1 * 16^3 + 10 * 16^2 + 0 * 16^1 + 1 * 16^0 = 6657
+
+Step 2: Add the two numbers in decimal format:
+
+6657 + 8020 = 14677
+
+Step 3: Convert the result back to hexadecimal:
+
+14677 in hexadecimal = 3955
+
+Step 4: Multiply the two numbers in decimal format:
+
+6657 * 8020 = 53389140
+
+Step 5: Convert the result back to hexadecimal:
+
+53389140 in hexadecimal = 32EA754 
+
+So, the sum of 1A01 and 8020 in hexadecimal format is 3955 and the product of 1A01 and 8020 in hexadecimal format is 32EA754.
