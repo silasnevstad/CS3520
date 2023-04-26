@@ -1,2 +1,3 @@
-# CS3520
-CS3520 Programming in C++ (Northeastern)
+# CS3520 Programming in C++
+
+Some of the work I did from CS3520 at Northeastern.
